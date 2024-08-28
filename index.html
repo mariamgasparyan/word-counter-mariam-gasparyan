@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="info">
+        <div class="info__left">
+            <h1>
+                Mariam Gasparyan's mini project
+                <a href="https://am.linkedin.com/in/marish-gasparyan" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" id="linkedin-bug-blue-xsmall" aria-hidden="true" role="none" data-supported-dps="21x21" width="21" height="21" focusable="false" class="windows-app-upsell__linkedin-bug-icon-svg w-[21px] h-[21px] lazy-loaded" aria-busy="false">
+                        <g>
+                            <path d="M19.5 0h-18A1.5 1.5 0 000 1.5v18A1.5 1.5 0 001.5 21h18a1.5 1.5 0 001.5-1.5v-18A1.5 1.5 0 0019.5 0zM6 18H3V8h3zM4.5 6.25A1.75 1.75 0 116.25 4.5 1.75 1.75 0 014.5 6.25zM18 18h-3v-5.09c0-1.62-.74-2.44-1.84-2.44A2.32 2.32 0 0011 12.91V18H8V8h3v1.39a4 4 0 013.3-1.63c1.77 0 3.66.93 3.66 4z" fill="#0a66c2"></path>
+                        </g>
+                    </svg>
+                </a>
+            </h2>
+            <p class="info__text">
+                <strong>Task:</strong>
+                For this project, your task is to build a basic one-page application that counts the number of letters, words
+                and sentences in a user-inputted block of text, as well as any other metrics you find interesting. At the very
+                minimum, there will be one text input field and somewhere for the count information to appear.
+            </p>
+            <p class="info__text">
+                <strong>Bonus:</strong>
+                Add a button to your application that when clicked, generates a random background of
+                your choosing 🎨
+            </p>
+            <textarea id="info-field" class="info__field" placeholder="Write Text ..."></textarea>
+            <h3>Results:</h3>
+            <ul class="info__list">
+                <li class="info__item">
+                    <p>the number of letters: <strong id="letters-length"></strong></p>
+                </li>
+                <li class="info__item">
+                    <p>the number of words: <strong id="words-length"></strong></p>
+                </li>
+                <li class="info__item">
+                    <p>the number of sentences: <strong id="sentence-length"></strong></p>
+                </li>
+            </ul>
+            <button id="generate-lavender-color" class="info__btn">Generate Background lavender color</button>
+            <button id="generate-color" class="info__btn">Generate Background color</button>
+        </div>
+        <div class="info__right">
+            <img class="info__img" src="img/lavender.png" alt="">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

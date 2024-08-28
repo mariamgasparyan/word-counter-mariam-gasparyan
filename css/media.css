@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px) {
+    .info {
+        padding: 15px;
+    }
+
+    .info__right {
+        display: none;
+    }
+
+    .info__left {
+        flex-grow: 1;
+    }
+
+    .info__btn {
+        font-size: 14px;
+    }
+
+    .info__field,
+    .info__btn {
+        width: 100%;
+    }
+
+}
